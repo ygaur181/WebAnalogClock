@@ -1,0 +1,94 @@
+.outcircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #000000;
+    margin: 150px auto;
+    border-radius: 155px;
+}
+
+.incircle{
+    border: 3px solid black;
+    height: 290px;
+    width: 290px;
+    border-radius: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexdiv{
+    display: flex;
+    height: 20px;
+    width: 280px;
+    position: absolute;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.point{
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+}
+
+.hour{
+    height: 90px;
+    width: 3px;
+    background-color: black;
+    margin: auto;
+}
+
+.min{
+    height: 135px;
+    width: 2px;
+    background-color: black;
+    margin: auto;
+}
+
+.sec{
+    height: 115px;
+    width: 1px;
+    background-color: black;
+    margin: auto;
+}
+
+.top{
+    border: solid black;
+    padding: 3px;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 7px;
+}
+
+.arrow{
+    height: 50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.secwid{
+    border-width: 0 1px 1px 0;
+}
+
+.hourwid{
+    border-width: 0px 3px 3px 0px;
+}
+
+.minwid{
+    border-width: 0px 2px 2px 0px;
+}
